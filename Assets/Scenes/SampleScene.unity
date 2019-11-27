@@ -1399,7 +1399,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 789623720}
   selectedCommands:
-  - {fileID: 789623764}
+  - {fileID: 789623760}
   variables:
   - {fileID: 789623777}
   - {fileID: 789623773}
@@ -3540,7 +3540,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Sala da biblioteca
   description: 
-  targetBlock: {fileID: 789623756}
+  targetBlock: {fileID: 789623744}
   hideIfVisited: 1
   interactable:
     booleanRef: {fileID: 0}
@@ -3565,7 +3565,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Sala de brinquedos
   description: 
-  targetBlock: {fileID: 789623744}
+  targetBlock: {fileID: 789623756}
   hideIfVisited: 1
   interactable:
     booleanRef: {fileID: 0}
@@ -5916,7 +5916,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &789623850
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5937,7 +5937,7 @@ MonoBehaviour:
   callMode: 1
 --- !u!114 &789623851
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5964,7 +5964,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &789623852
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6006,7 +6006,7 @@ MonoBehaviour:
   targetCamera: {fileID: 0}
 --- !u!114 &789623854
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
