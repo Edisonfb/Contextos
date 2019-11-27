@@ -1364,6 +1364,7 @@ GameObject:
   - component: {fileID: 789623852}
   - component: {fileID: 789623851}
   - component: {fileID: 789623850}
+  - component: {fileID: 789623854}
   m_Layer: 0
   m_Name: Flowchart_Principal
   m_TagString: Untagged
@@ -1384,7 +1385,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -356.86328, y: -89.85804}
+  scrollPos: {x: -332.1211, y: -111.50754}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 412
@@ -1396,8 +1397,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 789623756}
-  selectedCommands: []
+  - {fileID: 789623720}
+  selectedCommands:
+  - {fileID: 789623764}
   variables:
   - {fileID: 789623777}
   - {fileID: 789623773}
@@ -2442,6 +2444,7 @@ MonoBehaviour:
   - {fileID: 789623766}
   - {fileID: 789623765}
   - {fileID: 789623853}
+  - {fileID: 789623854}
   - {fileID: 789623764}
   - {fileID: 789623763}
   - {fileID: 789623762}
@@ -3696,8 +3699,7 @@ MonoBehaviour:
   itemId: 59
   indentLevel: 1
   storyText: "{i}-Mas ela n\xE3o est\xE1 aqui{/i} - diz Jo\xE3o.\r\n{i}- Deixa comigo!
-    {/i} Grita Scooby. \nE come\xE7a a cavar um t\xFAnel no ch\xE3o enquanto os amigos
-    distraiam os guardi\xF5es."
+    {/i} Grita Scooby. \n"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6002,6 +6004,34 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   targetCamera: {fileID: 0}
+--- !u!114 &789623854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789623683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 180
+  indentLevel: 1
+  storyText: "E come\xE7a a cavar um t\xFAnel no ch\xE3o, enquanto os amigos distraem
+    os guardas."
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &812806834
 GameObject:
   m_ObjectHideFlags: 0
